@@ -55,7 +55,7 @@ rpds-py==0.9.2
 six==1.16.0
 smmap==5.0.0
 snowflake-cli-labs==1.0.1
-snowflake-connector-python==2.8.3
+snowflake-connector-python==3.0.4
 snowflake-connector-python-nightly==2023.6.24
 snowflake-snowpark-python==1.6.1
 sortedcontainers==2.4.0
