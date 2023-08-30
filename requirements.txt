@@ -73,3 +73,4 @@ tzlocal==4.3.1
 urllib3==1.26.16
 validators==0.20.0
 zipp==3.16.2
+pytest==2.9.0
