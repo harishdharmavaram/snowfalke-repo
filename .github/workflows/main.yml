@@ -26,5 +26,5 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt          
           pip uninstall urllib3-secure-extra
-      - name: Run test
-        run: pytest  test.py
+      - name: RunTest
+        run: pytest test.py
