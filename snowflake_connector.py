@@ -35,3 +35,5 @@ class SnowflakeConnector:
     def close(self):
         if self.connection:
             self.connection.close()
+
+
