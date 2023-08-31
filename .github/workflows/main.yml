@@ -3,7 +3,7 @@ name: CI
 on: [pull_request]
 
 jobs:
-  test:
+  snowfalke_connection_test:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: true
