@@ -2,9 +2,9 @@ from azure.identity import ClientSecretCredential
 from azure.keyvault.secrets import SecretClient
 
 KVUri = "https://dataops-poc.vault.azure.net/"
-client_id = "db2a1bcb-cb13-494d-9434-30b475033623"
-client_secret = "tBO8Q~gXKf_d4bO_YCH9~cDImHREduWJ3-u4ndvw"
-tenant_id = "9c9c6250-26b3-4f0c-90d9-0bc5a404777d"
+client_id = os.environ['ClientID']
+client_secret = os.environ['Client_secret']
+tenant_id = os.environ['Tenant_id']
 
 # Creating a variable to store the key vault value in
 account = 'account'
