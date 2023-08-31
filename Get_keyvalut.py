@@ -1,5 +1,7 @@
+import os
 from azure.identity import ClientSecretCredential
 from azure.keyvault.secrets import SecretClient
+
 
 KVUri = "https://dataops-poc.vault.azure.net/"
 client_id = os.environ['ClientID']
